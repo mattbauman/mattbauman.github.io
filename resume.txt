@@ -1,0 +1,49 @@
+SUMMARY
+Senior Data Scientist with over a decade of experience transforming complex data into business outcomes across analytics, machine learning, and decision science. Proven track record in automating data pipelines, deploying statistical and ML models, and presenting insights to executive leadership. Skilled in integrating large language models (LLMs) and advanced analytics to drive operational efficiency, customer experience, and strategic decision-making at scale.
+
+TECHNICAL SKILLS
+Programming & Languages: Python (pandas, numpy, prophet, scipy, matplotlib, seaborn, sklearn, requests, nltk, pyodbc), R (caret, dplyr, bupar, tidyr, SnowballC), SQL (Teradata, SQL Server, Oracle, MySQL, BigQuery)
+Machine Learning & AI:
+Supervised Learning: Regression, Classification, Decision Trees, Random Forests
+Forecasting: Time series forecasting with Prophet and statistical models  
+Natural Language Processing (NLP): Text classification, theme extraction, sentiment analysis  
+Large Language Models (LLMs): Gemini and ChatGPT for insight automation, unstructured data extraction  
+Model Deployment: BigQuery pipelines, Google Cloud Workflows
+Statistics & Analysis: Correlation, Hypothesis Testing, A/B Testing, t-tests, ANOVA, Difference in Differences, Parallel Trends
+Data Visualization: Power BI, Looker Studio, matplotlib, seaborn
+Data Engineering & Big Data: Apache Hadoop, Hive, Ambari, WebHDFS, sqoop, GCP Workflows, GCP Scheduler
+Data Modeling: Entity Relationship Diagrams, Data Mapping, Normalization
+
+EXPERIENCE
+Best Buy, Richfield - Senior Decision Scientist
+December 2018 - Present 
+Coached the team on selecting the best analytical approaches to business questions.
+Led scoping sessions with internal clients to drive data-driven decisions.
+Presented findings and insights to Directors and VPs.
+Conducted data discovery across retail, services, sales, call center contacts, inventory, and customer segments, identifying trends and opportunities for operational improvements.
+Automated key reports using Google Cloud Jobs, Workflows, BigQuery, and Looker.
+
+Accenture, Minneapolis - Data Consulting
+June 2011 - December 2018
+Extracted and analyzed data for high-profile legal litigation cases with significant visibility.
+Created entity relationship diagrams, data models, and integration design documents for large-scale data migrations.
+Migrated healthcare inventory data into Oracle enterprise databases.
+
+KEY PROJECTS
+Used Gemini LLM to extract themes from unstructured order notes and reduce fulfillment friction through targeted IT improvements.
+Forecasted vendor purchase order lead times for large products using Python Prophet.
+Designed operational metrics to drive high customer experience scores using multiple regression on survey data across customer channels.
+Mapped supply chain breakdowns using R bupar to design KPIs and identify high-risk failure points.
+Built a Power BI scorecard for In-Home leaders to track product repair junk-out rates.
+Created parallel trends and difference-in-differences models to assess the impact of reducing specific types of store labor on operational performance, including shrink and customer satisfaction.
+Conducted a two-sample t-test to assess scaling a proactive customer advocate support team focused on reducing cancellations.
+Automated data updates in Looker Studio using Google Cloud Workflows and Scheduler for near real-time reporting.
+Built a Python script to automate price match validation, reducing manual effort and increasing accuracy.
+Traced extended warranty exchanges to new product acquisitions for clean customer handoffs and accurate internal accounting.
+Identified key order features that impact the likelihood of costly redos or exchanges.
+
+EDUCATION
+Minnesota State University, Mankato, MN — B.S.
+Information Systems and Business Administration
+
+IBM Data Analyst Certification https://coursera.org/verify/professional-cert/7KASSIHLA4WT

@@ -1,136 +1,150 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>Matt Bauman</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.resume-section { margin-bottom: 0; }
+.skill-tag { margin: 3px 2px; display: inline-block; }
 </style>
 </head>
 <body class="w3-light-grey">
 
-<!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
 <div class="w3-content" style="max-width:1400px">
 
 <!-- Header -->
-<header class="w3-container w3-center w3-padding-32"> 
-  <h1><b>MY BLOG</b></h1>
-  <p>Welcome to the blog of <span class="w3-tag">unknown</span></p>
+<header class="w3-container w3-center w3-padding-32">
+  <h1><b>Matt Bauman</b></h1>
+  <p>Senior Data Scientist &mdash; Analytics, Machine Learning &amp; Decision Science</p>
 </header>
 
 <!-- Grid -->
 <div class="w3-row">
 
-<!-- Blog entries -->
+<!-- Main content -->
 <div class="w3-col l8 s12">
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-    <img src="/w3images/woods.jpg" alt="Nature" style="width:100%">
-    <div class="w3-container">
-      <h3><b>TITLE HEADING</b></h3>
-      <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
-    </div>
 
-    <div class="w3-container">
-      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <div class="w3-row">
-        <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-        </div>
-        <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
-        </div>
-      </div>
+  <!-- Summary -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container w3-padding-16">
+      <h3><b>Summary</b></h3>
+      <p>Senior Data Scientist with over a decade of experience transforming complex data into business outcomes across analytics, machine learning, and decision science. Proven track record in automating data pipelines, deploying statistical and ML models, and presenting insights to executive leadership. Skilled in integrating large language models (LLMs) and advanced analytics to drive operational efficiency, customer experience, and strategic decision-making at scale.</p>
+    </div>
+  </div>
+
+  <!-- Experience -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container w3-padding-16">
+      <h3><b>Experience</b></h3>
+
+      <h4><b>Best Buy</b> &mdash; Senior Decision Scientist</h4>
+      <h5 class="w3-opacity">December 2018 &ndash; Present &nbsp;&middot;&nbsp; Richfield, MN</h5>
+      <ul>
+        <li>Coached the team on selecting the best analytical approaches to business questions.</li>
+        <li>Led scoping sessions with internal clients to drive data-driven decisions.</li>
+        <li>Presented findings and insights to Directors and VPs.</li>
+        <li>Conducted data discovery across retail, services, sales, call center contacts, inventory, and customer segments, identifying trends and opportunities for operational improvements.</li>
+        <li>Automated key reports using Google Cloud Jobs, Workflows, BigQuery, and Looker.</li>
+      </ul>
+
+      <h4><b>Accenture</b> &mdash; Data Consulting</h4>
+      <h5 class="w3-opacity">June 2011 &ndash; December 2018 &nbsp;&middot;&nbsp; Minneapolis, MN</h5>
+      <ul>
+        <li>Extracted and analyzed data for high-profile legal litigation cases with significant visibility.</li>
+        <li>Created entity relationship diagrams, data models, and integration design documents for large-scale data migrations.</li>
+        <li>Migrated healthcare inventory data into Oracle enterprise databases.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Key Projects -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container w3-padding-16">
+      <h3><b>Key Projects</b></h3>
+      <ul>
+        <li>Used Gemini LLM to extract themes from unstructured order notes and reduce fulfillment friction through targeted IT improvements.</li>
+        <li>Forecasted vendor purchase order lead times for large products using Python Prophet.</li>
+        <li>Designed operational metrics to drive high customer experience scores using multiple regression on survey data across customer channels.</li>
+        <li>Mapped supply chain breakdowns using R bupar to design KPIs and identify high-risk failure points.</li>
+        <li>Built a Power BI scorecard for In-Home leaders to track product repair junk-out rates.</li>
+        <li>Created parallel trends and difference-in-differences models to assess the impact of reducing specific types of store labor on operational performance, including shrink and customer satisfaction.</li>
+        <li>Conducted a two-sample t-test to assess scaling a proactive customer advocate support team focused on reducing cancellations.</li>
+        <li>Automated data updates in Looker Studio using Google Cloud Workflows and Scheduler for near real-time reporting.</li>
+        <li>Built a Python script to automate price match validation, reducing manual effort and increasing accuracy.</li>
+        <li>Traced extended warranty exchanges to new product acquisitions for clean customer handoffs and accurate internal accounting.</li>
+        <li>Identified key order features that impact the likelihood of costly redos or exchanges.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container w3-padding-16">
+      <h3><b>Education &amp; Certifications</b></h3>
+      <h4><b>Minnesota State University, Mankato</b></h4>
+      <p>B.S. in Information Systems and Business Administration</p>
+      <h4><b>IBM Data Analyst Professional Certificate</b></h4>
+      <p><a href="https://coursera.org/verify/professional-cert/7KASSIHLA4WT" target="_blank">Verify on Coursera &rarr;</a></p>
+    </div>
+  </div>
+
+  <!-- Blog placeholder — add posts here -->
+
+<!-- END MAIN CONTENT -->
+</div>
+
+<!-- Sidebar -->
+<div class="w3-col l4">
+
+  <!-- About -->
+  <div class="w3-card w3-margin w3-margin-top">
+    <div class="w3-container w3-white w3-padding-16">
+      <h4><b>Matt Bauman</b></h4>
+      <p>Senior Data Scientist based in Minnesota. I work at the intersection of analytics, machine learning, and business strategy.</p>
+      <p><a href="mailto:matt.bauman.us@gmail.com">matt.bauman.us@gmail.com</a></p>
     </div>
   </div>
   <hr>
 
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
-    <div class="w3-container">
-      <h3><b>BLOG ENTRY</b></h3>
-      <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
-    </div>
-
-    <div class="w3-container">
-      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <div class="w3-row">
-        <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-        </div>
-        <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- END BLOG ENTRIES -->
-</div>
-
-<!-- Introduction menu -->
-<div class="w3-col l4">
-  <!-- About Card -->
-  <div class="w3-card w3-margin w3-margin-top">
-  <img src="/w3images/avatar_g.jpg" style="width:100%">
-    <div class="w3-container w3-white">
-      <h4><b>My Name</b></h4>
-      <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
-    </div>
-  </div><hr>
-  
-  <!-- Posts -->
+  <!-- Technical Skills -->
   <div class="w3-card w3-margin">
     <div class="w3-container w3-padding">
-      <h4>Popular Posts</h4>
+      <h4>Technical Skills</h4>
     </div>
-    <ul class="w3-ul w3-hoverable w3-white">
-      <li class="w3-padding-16">
-        <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Lorem</span><br>
-        <span>Sed mattis nunc</span>
-      </li>
-      <li class="w3-padding-16">
-        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Ipsum</span><br>
-        <span>Praes tinci sed</span>
-      </li> 
-      <li class="w3-padding-16">
-        <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Dorum</span><br>
-        <span>Ultricies congue</span>
-      </li>   
-      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
-        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Mingsum</span><br>
-        <span>Lorem ipsum dipsum</span>
-      </li>  
-    </ul>
-  </div>
-  <hr> 
- 
-  <!-- Labels / tags -->
-  <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h4>Tags</h4>
-    </div>
-    <div class="w3-container w3-white">
-    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
-    </p>
+    <div class="w3-container w3-white w3-padding-16">
+      <p><b>Languages</b></p>
+      <p>
+        <span class="w3-tag w3-blue w3-small skill-tag">Python</span>
+        <span class="w3-tag w3-blue w3-small skill-tag">R</span>
+        <span class="w3-tag w3-blue w3-small skill-tag">SQL</span>
+      </p>
+      <p><b>ML &amp; AI</b></p>
+      <p>
+        <span class="w3-tag w3-teal w3-small skill-tag">Regression</span>
+        <span class="w3-tag w3-teal w3-small skill-tag">Classification</span>
+        <span class="w3-tag w3-teal w3-small skill-tag">Random Forests</span>
+        <span class="w3-tag w3-teal w3-small skill-tag">Time Series</span>
+        <span class="w3-tag w3-teal w3-small skill-tag">NLP</span>
+        <span class="w3-tag w3-teal w3-small skill-tag">LLMs</span>
+        <span class="w3-tag w3-teal w3-small skill-tag">A/B Testing</span>
+      </p>
+      <p><b>Data &amp; Cloud</b></p>
+      <p>
+        <span class="w3-tag w3-dark-grey w3-small skill-tag">BigQuery</span>
+        <span class="w3-tag w3-dark-grey w3-small skill-tag">GCP</span>
+        <span class="w3-tag w3-dark-grey w3-small skill-tag">Hadoop</span>
+        <span class="w3-tag w3-dark-grey w3-small skill-tag">Looker</span>
+        <span class="w3-tag w3-dark-grey w3-small skill-tag">Power BI</span>
+        <span class="w3-tag w3-dark-grey w3-small skill-tag">Teradata</span>
+      </p>
     </div>
   </div>
-  
-<!-- END Introduction Menu -->
+
+<!-- END Sidebar -->
 </div>
 
 <!-- END GRID -->
@@ -141,9 +155,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Footer -->
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
-  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <p>&copy; Matt Bauman</p>
 </footer>
 
 </body>
